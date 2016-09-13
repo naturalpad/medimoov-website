@@ -772,6 +772,12 @@ i.arrow{
     background-color: #5aabda;
 }
 
+i.arrow.last-section{
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
 i.arrow:after{
     content: '';
     display: inline-block;
