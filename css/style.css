@@ -723,6 +723,10 @@ margin: auto;
     vertical-align: middle;
 }
 
+/* *************************************************
+Navigation
+************************************************* */
+
 nav{
     position: fixed;
     top: 45%;
@@ -734,6 +738,10 @@ nav{
     text-align: right;
     color: grey;
     position: relative;
+}
+
+.current-section{
+    background-color: greenyellow;
 }
 
 .nav-item span:after{
