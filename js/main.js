@@ -17,6 +17,7 @@ $(document).ready(function(){
                             .html($elem.attr("title"))));
                 $anchor.on("click", function(){
                     $.scrollify.move("#" + $elem.data("section-name"))
+                    console.log ($elem.data("section-name"));
                 });
                 $navList.append(listItem);
             });     
