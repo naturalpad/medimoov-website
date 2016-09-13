@@ -10,21 +10,17 @@ $(document).ready(function(){
                 var $anchor;
                 var $elem = $(elem);
                 
-                $elem.data("section-name", $elem.attr("title"));
                 var listItem = $("<li class='nav-item'>")
                 .html($anchor = $("<a href='javascript:void(0);'>")
                       .html($("<span>")
                             .html($elem.attr("title"))));
                 $anchor.on("click", function(){
                     $.scrollify.move("#" + $elem.data("section-name"))
-                    console.log ($elem.data("section-name"));
                 });
                 $navList.append(listItem);
             });     
         }
-        
-        var currentSection = 0;
-        
+
         $.scrollify({
             section : "section",
             sectionName : "section-name",
@@ -40,6 +36,6 @@ $(document).ready(function(){
             after:function() {},
             afterResize:function() {},
             afterRender:function() {}
-        });    
+        });
     });
 });
