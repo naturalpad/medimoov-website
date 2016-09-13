@@ -190,7 +190,7 @@ section {
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 1000px;
-    
+    position: relative;
 }
 
 .full-center {
@@ -810,4 +810,43 @@ i.arrow:after{
 
 hr.spec {
   width: 100%;  
+}
+
+.info-left-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    vertical-align: middle;
+    width: 20%;
+    min-width: 400px;
+}
+
+.info-left-content > p{
+    text-align: right;
+}
+
+.info-right-content {
+    width: 60%;
+    column-count: 2;
+    vertical-align: middle;
+}
+
+.info-mission-content {
+    padding-top: 25%;
+}
+
+.logos-partners img {
+    margin: 10px 40px;
+}
+
+.info-contact {
+background-color: #6c6d71;
+    height: 40px;
+line-height: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+span.txt-orange{
+    color: #e39e5b;
 }
