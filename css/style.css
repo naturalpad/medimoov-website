@@ -815,7 +815,7 @@ hr.spec {
 .info-left-content {
     margin-left: 50px;
     margin-right: 50px;
-    vertical-align: middle;
+    vertical-align: top;
     width: 20%;
 }
 
@@ -853,4 +853,17 @@ span.txt-orange{
 .info-content {
     width: 75%;
     margin: auto;
+}
+
+.faq-title {
+    width: 30%;
+}
+
+.faq-right-content {
+    width: 50%;
+}
+
+#faq-general {
+    margin: auto;
+    width: 75%;
 }
